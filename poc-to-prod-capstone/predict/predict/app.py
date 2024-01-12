@@ -22,7 +22,7 @@ def index():
     predictions = None
     if request.method == 'POST':
         text_list = [request.form['text']]
-        model = TextPredictionModel.from_artefacts('train/data/artefacts/2024-01-11-23-08-20')
+        model = TextPredictionModel.from_artefacts('C:/Users/BOUCHRA/Documents/EPF 5A/from poc to prod/poc-to-prod-capstone/poc-to-prod-capstone/train/data/artefacts/2024-01-11-23-08-20')
         predictions = model.predict(text_list)
     return render_template_string(html_form, predictions=predictions)
 if __name__ == '__main__':
