@@ -8,7 +8,7 @@ html_form = '''
     <title>Text Prediction</title>
 </head>
 <body>
-    <h2>Enter text for prediction</h2>
+    <h2>Enter text</h2>
     <form method="post" action="/">
         <textarea name="text" rows="4" cols="50" placeholder="Type your text here..."></textarea>
         <br><br>
