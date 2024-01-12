@@ -29,7 +29,7 @@ class TextPredictionModel:
         """
         # TODO: CODE HERE
         # load model
-        model = load_model(os.path.join(artefacts_path, "model"))
+        model = load_model(os.path.join(artefacts_path, "model.h5"))
         # TODO: CODE HERE
         # load params
         params_path = os.path.join(artefacts_path, "params.json")
